@@ -1,4 +1,4 @@
-# My-Own-DB
+# my-own-database
 
 ## Goal
 
