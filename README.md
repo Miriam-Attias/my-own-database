@@ -14,10 +14,11 @@ by effective access to disk, optimization by key-index, and implement actions by
 Installing
 
 ```pip install dataclasses``` 
+
 (downloand dataclasses library)
 
 ### Executing program
-import our code to your project by the folloing lines:
+Import our code to your project by the folloing lines:
 ```
 from db import DataBase
 from db_api import DBField, SelectionCriteria, DB_ROOT, DBTable
@@ -27,15 +28,15 @@ Tests
 If you change the code I recommend that you run the attached tests to make sure you have not violated the existing code.
 
 ### Executing test
-install pytest by the command:
+Install pytest by the command:
 ```
 pip install pytest
 ```
-to run spesific test use the command:
+To run spesific test use the command:
 ```
 "py.test -k {test_name}"
 ```
-to run all tests use the command:
+To run all tests use the command:
 ```
 "py.test"
 ```
